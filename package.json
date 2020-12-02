@@ -1,0 +1,20 @@
+{
+  "name": "countries-n-cities",
+  "version": "1.0.0",
+  "description": "Countries and cities of the world. The data used comes from https://github.com/lutangar/cities.json",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "countries",
+    "cities"
+  ],
+  "author": "Trung Le",
+  "license": "ISC",
+  "dependencies": {
+    "cities.json": "^1.1.5",
+    "country-json": "^1.1.0",
+    "express": "^4.17.1"
+  }
+}
